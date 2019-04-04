@@ -1,2 +1,4 @@
-# detect-xss-bro
-Cross Site Scripting attack detection in HTTP.
+## XSS detection
+Detect Cross Site Scripting in [Bro/Zeek](https://www.zeek.org/).
+
+Output: xss.log
