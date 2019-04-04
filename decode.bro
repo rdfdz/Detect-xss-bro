@@ -87,7 +87,7 @@ function decode(payload: string): string {
 # Funtion to clean expression comment
 function xss_expression_comment(payload: string): string {
 
-	return gsub(payload, /\/\*.+?\*\//, "");
+    return gsub(payload, /\/\*.+?\*\//, "");
 }
 
 
